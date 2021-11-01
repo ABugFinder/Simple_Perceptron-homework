@@ -11,7 +11,7 @@ void setup() {
                           random(0, height) - height/2);
     tam = width/2;
     
-    neurona = new Neurona(2, .05);
+    neurona = new Neurona(2, .01);
   }
   println(frameCount);
 }
