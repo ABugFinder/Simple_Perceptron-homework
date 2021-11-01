@@ -8,14 +8,6 @@ function Neurona(n, tasa) {
     var pesos = [peso0, peso1, peso2];
     var tasa;
     this.alfa = tasa;
-
-    /*Neurona(n, tasa) {
-      pesos = new float[n+1];
-      pesos[0] = 0.5;
-      pesos[1] = 0.5;
-      pesos[2] = 0.5;
-      alfa = tasa;
-    }*/
     
     this.clasificar = function(x, y) {
       var suma = x*pesos[0] + y*pesos[1] + pesos[2];
